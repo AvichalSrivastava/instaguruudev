@@ -16,7 +16,7 @@ import {loginUser} from '../actions';
 
 
 const axios = require('axios');
-const baseUrl =  'https://instagramserv.herokuapp.com/'; // 'http://127.0.0.1:3000/' 
+const baseUrl =  'http://127.0.0.1:3000/' || 'https://instagramserv.herokuapp.com/'; // 'http://127.0.0.1:3000/' 
 
 export class Instagrampage extends Component {
     constructor(props) {
